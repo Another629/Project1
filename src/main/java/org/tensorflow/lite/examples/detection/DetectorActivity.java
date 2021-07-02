@@ -206,9 +206,6 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
 
                 float mini = minimumConfidence;
                 runOnUiThread(
-
-
-
                         new Runnable() {
                           @Override
                           public void run() {
